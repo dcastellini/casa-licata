@@ -87,6 +87,7 @@ class SiteController extends Controller
 
 			if($model->login()){
                 Yii::app()->session->open();
+                Yii::app()->session['usuario'] = $model->username;
                 echo Yii::app()->request->baseUrl . "/site/index";
             }
             else{
