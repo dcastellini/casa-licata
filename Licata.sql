@@ -17,6 +17,7 @@ DROP TABLE IF EXISTS Licata.`Proveedor`;
 DROP TABLE IF EXISTS Licata.`Cliente`;
 DROP TABLE IF EXISTS Licata.`Tipo_Documento`;
 DROP TABLE IF EXISTS Licata.`Usuario`;
+DROP TABLE IF EXISTS Licata.`Diametro_Barra_Acero`;
 
 
 /*  TABLA DE USUARIOS   */
@@ -131,7 +132,9 @@ CREATE TABLE IF NOT EXISTS Licata.`Material_Stock` (
 	`tipo_material`        varchar(1)   NOT NULL,
     `cant_min`             varchar(40)          ,
     `cant_stock`           varchar(40)          ,	
-    `precio_lista`         int          NOT NULL,
+    `id_proveedor`         int(15)      NOT NULL,	
+	`unidad_medida`        VARCHAR(10)  NOT NULL,
+	`precio_lista`         int          NOT NULL,
 	`precio_venta`         int          NOT NULL,
 	`ganancia`             int                  ,
  	`usu_creacion`         varchar(40)  NOT NULL,
@@ -139,7 +142,8 @@ CREATE TABLE IF NOT EXISTS Licata.`Material_Stock` (
     `usu_modif`            varchar(40)  NOT NULL,
     `fhmodif`              timestamp    NOT NULL,
     PRIMARY KEY (`id_material`),
-	CONSTRAINT `tipo_material_fk` FOREIGN KEY (`tipo_material`)  REFERENCES `Tipo_Material` (`tipo_material`)
+	CONSTRAINT `tipo_material_fk` FOREIGN KEY (`tipo_material`)  REFERENCES `Tipo_Material` (`tipo_material`),
+	CONSTRAINT `material_stock_proveedor` FOREIGN KEY (`id_proveedor`)  REFERENCES `Proveedor` (`id_proveedor`)
 );
 CREATE UNIQUE INDEX  idx_id_material ON Licata.`Material_Stock`(`id_material`) USING HASH;
 
@@ -261,10 +265,51 @@ CREATE TABLE IF NOT EXISTS Licata.`Recibo_Detalle` (
 );
 CREATE UNIQUE INDEX  idx_recibo_detalle ON Licata.`Recibo_Detalle`(`id_recibo`,`item`) USING HASH;
 
+/* TABLA DE PESO POR DIAMETRO DE VARILLAS */
+
+CREATE TABLE IF NOT EXISTS Licata.`Diametro_Barra_Acero` (
+    `diametro`             decimal(6,3) NOT NULL,
+    `peso_varilla`         decimal(6,3) NOT NULL,
+    `usu_creacion`         varchar(40)  NOT NULL,
+    `fhcreacion`           date         NOT NULL,
+    `usu_modif`            varchar(40)  NOT NULL,
+    `fhmodif`              timestamp    NOT NULL,
+    PRIMARY KEY (`diametro`)
+);
+
+
 /* INSERTO USUARIO ADMINISTRADOR */
 
 INSERT INTO Licata.`Usuario` 
 (`usuario`,`password`,`nombre`,`apellido`,`email`,`usu_creacion`,`fhcreacion`,`usu_modif`,`fhmodif`)
 VALUES 
 ('admin',MD5('admin'),'Admin','Admin','admin@admin.com','admin',SYSDATE(),'admin',SYSDATE());
+
+/* INSERTO TIPO MATERIAL */
+
+INSERT INTO Licata.`Tipo_Material` 
+(`tipo_material`,`descripcion`,`usu_creacion`,`fhcreacion`,`usu_modif`,`fhmodif`)
+VALUES 
+('1','Materiales Gruesos','admin',SYSDATE(),'admin',SYSDATE()),
+('2','Electricidad','admin',SYSDATE(),'admin',SYSDATE()),
+('3','Sanitarios','admin',SYSDATE(),'admin',SYSDATE()),
+('4','Ferreteria','admin',SYSDATE(),'admin',SYSDATE()),
+('5','Ceramicas','admin',SYSDATE(),'admin',SYSDATE()),
+('6','Aberturas','admin',SYSDATE(),'admin',SYSDATE());
+
+/* INSERTO DIAMETRO DE VARILLAS */
+
+INSERT INTO Licata.`Diametro_Barra_Acero` 
+(`diametro`,`peso_varilla`,`usu_creacion`,`fhcreacion`,`usu_modif`,`fhmodif`)
+VALUES 
+(6,2.66,'admin',SYSDATE(),'admin',SYSDATE()),
+(8,4.74,'admin',SYSDATE(),'admin',SYSDATE()),
+(10,7.40,'admin',SYSDATE(),'admin',SYSDATE()),
+(12,10.7,'admin',SYSDATE(),'admin',SYSDATE()),
+(16,18.9,'admin',SYSDATE(),'admin',SYSDATE()),
+(20,29.6,'admin',SYSDATE(),'admin',SYSDATE()),
+(25,46.2,'admin',SYSDATE(),'admin',SYSDATE()),
+(32,75.7,'admin',SYSDATE(),'admin',SYSDATE()),
+(40,118.3,'admin',SYSDATE(),'admin',SYSDATE());
+
 

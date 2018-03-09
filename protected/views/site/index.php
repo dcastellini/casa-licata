@@ -42,60 +42,17 @@
                 <li onclick="changeClass(this.value)" id="3" value="3"><a href="#">Proveedores</a></li>
                 <li onclick="changeClass(this.value)" id="4" value="4"><a href="#">Facturación</a></li>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" >
             <h1 class="page-header">¡Hola <?php echo Yii::app()->session['usuario']; ?>! ¿Qué deseas hacer? </h1>
+            <div id="mainContainer">
 
             </div>
         </div>
     </div>
 </div>
 
-<script type="text/javascript">
-    function changeClass(value){
-        debugger;
-        var array = [];
-        for(var i=1;i<=20;i++){
-            if(i>= 1 && i<=5){
-                $('#'+i+'').removeClass('active');
-            }
-            else{
-                $('#'+i+'').remove();
-            }
-        }
-        $('#'+value+'').addClass("active");
 
-        if(value == 1){
-            $("<li onclick='crearMaterial()' id='6' value='6'><a href='#'>Crear Material</a></li>").insertAfter('#1');
-            $("<li id='7' value='7'><a href='#'>Modificar Material</a></li>").insertAfter('#1');
-            $("<li id='8' value='8'><a href='#'>Modificar Stock</a></li>").insertAfter('#1');
-            $("<li id='9' value='9'><a href='#'>Consultar Stock</a></li>").insertAfter('#1');
-            $("<li id='10' value='10'><a href='#'>Eliminar Material</a></li>").insertAfter('#1');
-        }
-        if(value == 2){
-            $("<li id='11' value='11'><a href='#'>Crear Cliente</a></li>").insertAfter('#2');
-            $("<li id='12' value='12'><a href='#'>Consultar Cliente</a></li>").insertAfter('#2');
-            $("<li id='13' value='13'><a href='#'>Modificar Cliente</a></li>").insertAfter('#2');
-            $("<li id='14' value='14'><a href='#'>Eliminar Cliente</a></li>").insertAfter('#2');
-        }
-        if(value == 3){
-            $("<li id='15' value='15'><a href='#'>Crear Proveedor</a></li>").insertAfter('#3');
-            $("<li id='16' value='16'><a href='#'>Consultar Proveedor</a></li>").insertAfter('#3');
-            $("<li id='17' value='17'><a href='#'>Modificar Proveedor</a></li>").insertAfter('#3');
-            $("<li id='18' value='18'><a href='#'>Eliminar Proveedor</a></li>").insertAfter('#3');
-        }
-        if(value == 4){
-            $("<li id='19' value='19'><a href='#'>Consultar Facturar</a></li>").insertAfter('#4');
-            $("<li id='20' value='20'><a href='#'>Anular Factura</a></li>").insertAfter('#4');
-        }
-
-    }
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/changeClass.js"></script>
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/crearMaterial.js"></script>
 
 
-</script>
-
-<script type="text/javascript">
-    function crearMaterial(){
-
-    }
-
-</script>

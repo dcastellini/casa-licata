@@ -22,7 +22,7 @@
     </div>
 </div>
 
-<script>
+<script type="text/javascript" >
     function login(){
         var usuario  = $('#usuario').val();
         var password = $('#password').val();
