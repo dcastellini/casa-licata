@@ -1,0 +1,9 @@
+2018/03/14 16:59:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ObtenerTipoMaterial".' in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('ObtenerTipoMate...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/
+---

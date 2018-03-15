@@ -107,4 +107,18 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+    public function actionObtenerTipoMaterial()
+    {
+        $data = array();
+        $tipo_material = tipomaterial::model()->findAll();
+        if($tipo_material){
+            foreach($tipo_material as $mat){
+                $values = array('tipo_material' => $mat->tipo_material, 'descripcion' => $mat->descripcion);
+                array_push($data,$values);
+            }
+        }
+        echo json_encode($data);
+    }
+
 }
