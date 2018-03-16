@@ -44,7 +44,7 @@
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" >
             <h1 class="page-header">¡Hola <?php echo Yii::app()->session['usuario']; ?>! ¿Qué deseas hacer? </h1>
-            <div id="mainContainer">
+            <div id="mainContainer" class="container">
 
             </div>
         </div>

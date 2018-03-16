@@ -7,3 +7,173 @@ Stack trace:
 REQUEST_URI=/casa-licata/ObtenerTipoMaterial
 HTTP_REFERER=http://localhost/casa-licata/
 ---
+2018/03/16 15:36:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 15:36:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 15:36:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 15:36:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 15:36:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 15:36:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 15:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 15:42:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 15:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 15:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 15:55:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 16:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 16:04:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---
+2018/03/16 16:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/index
+---
+2018/03/16 16:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/index
+---
+2018/03/16 16:05:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Obten...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/site/ObtenerTipoMaterial
+HTTP_REFERER=http://localhost/casa-licata/site/index
+---

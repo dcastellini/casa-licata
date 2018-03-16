@@ -1,6 +1,8 @@
 function generarDropdown(value){
-    var dropDownListUnidad = "<select id='unidad'>";
-    $('#unidad').remove();
+    var dropDownListUnidad = "<div class='form-group' id='unidadContainer'>" +
+                             "<label for='unidad' class='col-sm-2 control-label'>Unidad de medida</label>" +
+                             "<select class='form-control' id='unidad'>";
+    $('#unidadContainer').remove();
     if(value == 2){
         dropDownListUnidad = dropDownListUnidad + "<option value='1'>Metro Cuadrado</option><option value='2'>Metro Cubico</option>";
     }
@@ -11,45 +13,66 @@ function generarDropdown(value){
         dropDownListUnidad = dropDownListUnidad + "<option value='1'>Gramos</option><option value='2'>Kilogramos</option><option value='3'>Toneladas</option>";
     }
     if(value != 1){
-        dropDownListUnidad = dropDownListUnidad + "</select>";
-        $('#mainContainer').append(dropDownListUnidad);
+        dropDownListUnidad = dropDownListUnidad + "</select></div><br>";
+        $(dropDownListUnidad).insertAfter('#unidad_material');
     }
 }
-
-
 
 
 function crearMaterial(){
 	var codigo;
     $('#mainContainer').html("");
-    var material ="<input type='text' placeholder='Material' id='nombre' /><br><br>";
+    var material = "<div class='form-group'>" +
+                   "<label for='nombre' class='col-sm-2 control-label'>Material</label>" +
+                   "<input type='text' class='form-control' placeholder='Material' id='nombre' /></div>";
     $('#mainContainer').append(material);
     $.ajax({
-        url: 'site/ObtenerTipoMaterial',
+        url: 'ObtenerTipoMaterial',
         type: "POST",
         dataType: "html",
         cache: false,
         success: function (response) {
             var materiales = JSON.parse(response);
-            var dropDownList = "<select id='tipo_material'>";
+            var dropDownList = "<div class='form-group'>" +
+                               "<label for='selectMaterial' class='col-sm-2 control-label'>Tipo de Material</label>" +
+                               "<select class='form-control' id='tipo_material'>";
             for (i = 0; i < materiales.length; i++) {
                 dropDownList = dropDownList + "<option value = '"+materiales[i]['tipo_material']+"'>"+ materiales[i]["descripcion"] + "</option>";
             };
-            dropDownList = dropDownList + "</select><br>";
+            dropDownList = dropDownList + "</select></div>";
             $('#mainContainer').append(dropDownList);
+
+            var tipo_unidad = "<div class='form-group' id='unidad_material'>" +
+                              "<label for='unidadMaterial' class='col-sm-2 control-label'>Unidad de medida</label>" +
+                              "<select class='form-control' id='unidadMaterial' onchange='generarDropdown(this.value)'>" +
+                              "<option value='1'>Unidad</option><option value='2'>Superficie</option><option value='3'>Linga</option><option value='4'>Peso</option></div>";
+
+            var cantidad   = "<div class='form-group'>" +
+                             "<label for='cantidad' class='col-sm-2 control-label'>Cantidad</label>" +
+                             "<div class='input-group'><input type='text' class='form-control' placeholder='Cantidad' id='cantidad'/><div class='input-group-addon'>00</div></div>";
+
+            var stockMin   = "<div class='form-group'>" +
+                             "<label for='stockMinimo' class='col-sm-2 control-label'>Stock Mínimo</label>" +
+                             "<div class='input-group'><input type='text' class='form-control' placeholder='Stock Minimo' id='stock_minimo'/><div class='input-group-addon'>00</div></div>";
+
+            var precio     = "<div class='form-group'>" +
+                             "<label for='precio' class='col-sm-2 control-label'>Precio de Lista</label>" +
+                             "<div class='input-group'><div class='input-group-addon'>$</div><input type='text' class='form-control' placeholder='Precio' id='precio'/><div class='input-group-addon'>.00</div></div></div>";
+
+            var porcentaje = "<div class='form-group'>" +
+                             "<label for='porcentaje' class='col-sm-2 control-label'>Porcentaje de Ganancia</label>" +
+                             "<div class='input-group'><div class='input-group-addon'>%</div><input type='text' class='form-control' placeholder='Porcentaje' id='porcentaje'/><div class='input-group-addon'>00</div></div></div>";
+
+            var ganancia   = "<div class='form-group'>" +
+                             "<label for='ganancia' class='col-sm-2 control-label'>Ganancia</label>" +
+                             "<div class='input-group'><div class='input-group-addon'>$</div><input type='text' class='form-control' placeholder='Ganancia $' id='ganancia'/><div class='input-group-addon'>00</div></div></div>";
+
+            $('#mainContainer').append(tipo_unidad);
+            $('#mainContainer').append(cantidad);
+            $('#mainContainer').append(stockMin);
+            $('#mainContainer').append(precio);
+            $('#mainContainer').append(porcentaje);
+            $('#mainContainer').append(ganancia);
         }
     });
-    var tipo_unidad = "<select id='tipo_unidad' onchange='generarDropdown(this.value)'><option value='1'>Unidad</option><option value='2'>Superficie</option><option value='3'>Linga</option><option value='4'>Peso</option>";
-    $('#mainContainer').append(tipo_unidad);
-    var cantidad = "<br><input type='text' placeholder='Cantidad' id='cantidad'/>";
-    var stockMin = "<br><input type='text' placeholder='Stock Minimo' id='stock_minimo'/>";
-    var precio = "<br><input type='text' placeholder='Precio $' id='precio'/><p>$</p>";
-    var porcentaje = "<br><input type='text' placeholder='Porcentaje' id='porcentaje'/><p>%</p>";
-    var ganancia = "<br><input type='text' placeholder='Ganancia $' id='ganancia'/><p>$</p>";
-    $('#mainContainer').append(cantidad);
-    $('#mainContainer').append(stockMin);
-    $('#mainContainer').append(precio);
-    $('#mainContainer').append(porcentaje);
-    $('#mainContainer').append(ganancia);
-
 }
