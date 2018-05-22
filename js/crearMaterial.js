@@ -1,3 +1,44 @@
+function validarCreacion(){
+    var nombre     = $('#nombre').val();
+    var cantidad   = $('#cantidad').val();
+    var stock      = $('#stock_minimo').val();
+    var precio     = $('#precio').val();
+    var porcentaje = $('#porcentaje').val();
+    var ganancia   = $('#ganancia').val();
+
+    if(nombre == ''){
+        alert('El nombre del material no puede ser nulo.');
+    }
+    else if(cantidad == ''){
+        alert('La cantidad no puede ser nula.');
+    }
+    else if(stock == ''){
+        alert('El stock mínimo no puede ser nulo.');
+    }
+    else if(precio == ''){
+        alert('El precio no puede ser nulo');
+    }
+    else if(porcentaje == ''){
+        alert('El porcentaje no puede ser nulo.');
+    }
+    else if(ganancia == ''){
+            alert('La ganancia no puede ser nula.');
+    }
+    else{
+        var data = { }
+        $.ajax({
+            url: 'crearMaterial',
+            type: "POST",
+            data: data,
+            dataType: "html",
+            cache: false,
+            success: function (response) {
+
+
+    }
+}
+
+
 function generarDropdown(value){
     var dropDownListUnidad = "<div class='form-group' id='unidadContainer'>" +
                              "<label for='unidad' class='col-sm-2 control-label'>Unidad de medida</label>" +
@@ -67,12 +108,15 @@ function crearMaterial(){
                              "<label for='ganancia' class='col-sm-2 control-label'>Ganancia</label>" +
                              "<div class='input-group'><div class='input-group-addon'>$</div><input type='text' class='form-control' placeholder='Ganancia $' id='ganancia'/><div class='input-group-addon'>00</div></div></div>";
 
+            var confirmar  = "<button class='btn btn-primary' onclick='validarCreacion()' >Crear</button>";
+
             $('#mainContainer').append(tipo_unidad);
             $('#mainContainer').append(cantidad);
             $('#mainContainer').append(stockMin);
             $('#mainContainer').append(precio);
             $('#mainContainer').append(porcentaje);
             $('#mainContainer').append(ganancia);
+            $('#mainContainer').append(confirmar);
         }
     });
 }
