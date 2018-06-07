@@ -408,7 +408,7 @@
 <script>
     function initMap() {
         var uluru = {lat: -34.698639, lng: -58.669250};
-        var secretMessages = '<p style="text-align:center"><b>Corralón Casa Licata</b><br>Donofrio 1544<br>Barrio Libertad<br> Buenos Aires</p>';
+        var secretMessages = '<span style="color:black"><b>Corralón Casa Licata</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D'onofrio 1544<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Barrio Libertad<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buenos Aires</span>';
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 15,
             center: uluru
