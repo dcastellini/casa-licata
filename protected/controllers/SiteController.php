@@ -1,5 +1,7 @@
 <?php
 
+require(Yii::app()->basePath.'\services\SendEmailService.php');
+
 class SiteController extends Controller
 {
 	/**
@@ -121,17 +123,17 @@ class SiteController extends Controller
         echo json_encode($data);
     }
 
-    public function envioEmail()
+    public function actionEnvioEmail()
     {
-        $data = array();
-        $tipo_material = tipomaterial::model()->findAll();
-        if($tipo_material){
-            foreach($tipo_material as $mat){
-                $values = array('tipo_material' => $mat->tipo_material, 'descripcion' => $mat->descripcion);
-                array_push($data,$values);
+        if(isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['email']) && isset($_POST['mensaje'])){
+            $send = new SendEmailService;
+            if($send->Send($_POST['nombre'],$_POST['apellido'],$_POST['email'],$_POST['mensaje'])){
+                echo "Send_ok";
+            }
+            else{
+                echo "Send_error";
             }
         }
-        echo json_encode($data);
     }
 
 }
