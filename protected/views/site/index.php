@@ -20,7 +20,7 @@
                         <a class="nav-link active" href="index.html"><b>INICIO</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#servicios"><b>SERVICIOS</b></a>
+                        <a class="nav-link" href="#servicios"><b>SERVICIOS</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#productos"><b>PRODUCTOS DESTACADOS</b></a>
@@ -85,7 +85,7 @@
 <!-- END slider -->
 <section class="container cta-overlap">
     <div class="text d-flex">
-        <h2 class="h3" class="center-h3">MÁS DE 25 AÑOS EN EL RUBRO DE LA CONSTRUCCIÓN</h2>
+        <h2 class="center-h3">MÁS DE 25 AÑOS EN EL RUBRO DE LA CONSTRUCCIÓN</h2>
         <!-- <div class="ml-auto btn-wrap">
           <a href="get-quote.html" class="btn-cta btn btn-outline-white">Get A Quote</a>
         </div> -->
@@ -408,6 +408,7 @@
 <script>
     function initMap() {
         var uluru = {lat: -34.698639, lng: -58.669250};
+        var secretMessages = '<p style="text-align:center"><b>Corralón Casa Licata</b><br>Donofrio 1544<br>Barrio Libertad<br> Buenos Aires</p>';
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 15,
             center: uluru
@@ -416,8 +417,21 @@
         var marker = new google.maps.Marker({
             position: uluru,
             map: map,
-            animation: google.maps.Animation.BOUNCE
+            animation: google.maps.Animation.BOUNCE,
+            title: 'Hacé click para ver la dirección'
         });
+        attachSecretMessage(marker, secretMessages);
+
+        function attachSecretMessage(marker, secretMessages) {
+            var infowindow = new google.maps.InfoWindow({
+                content: secretMessages
+            });
+
+            marker.addListener('click', function() {
+                infowindow.open(marker.get('map'), marker);
+            });
+        }
+
     }
 </script>
 <script> $(document).ready(function(){
