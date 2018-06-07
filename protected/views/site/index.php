@@ -43,8 +43,6 @@
             <div class="row slider-text align-items-center justify-content-center text-center">
                 <div class="col-md-7 col-sm-12 element-animate">
                     <h1>VENTAS POR MAYOR Y MENOR</h1>
-                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p> -->
-                    <!--<p><a href="#" class="btn btn-primary">Download Now!</a></p>-->
                 </div>
             </div>
         </div>
@@ -54,7 +52,6 @@
             <div class="row slider-text align-items-center">
                 <div class="col-md-8 col-sm-12 element-animate">
                     <h1>TRABAJAMOS CON LAS PRIMERAS MARCAS</h1>
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p> -->
                 </div>
             </div>
         </div>
@@ -64,8 +61,6 @@
             <div class="row slider-text align-items-center justify-content-center text-center">
                 <div class="col-md-7 col-sm-12 element-animate">
                     <h1>VENTAS POR MAYOR Y MENOR</h1>
-                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p> -->
-                    <!--<p><a href="#" class="btn btn-primary">Download Now!</a></p>-->
                 </div>
             </div>
         </div>
@@ -75,8 +70,6 @@
             <div class="row slider-text align-items-center justify-content-center text-center">
                 <div class="col-md-7 col-sm-12 element-animate">
                     <h1>VENTAS POR MAYOR Y MENOR</h1>
-                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p> -->
-                    <!--<p><a href="#" class="btn btn-primary">Download Now!</a></p>-->
                 </div>
             </div>
         </div>
@@ -86,9 +79,6 @@
 <section class="container cta-overlap">
     <div class="text d-flex">
         <h2 class="center-h3">MÁS DE 25 AÑOS EN EL RUBRO DE LA CONSTRUCCIÓN</h2>
-        <!-- <div class="ml-auto btn-wrap">
-          <a href="get-quote.html" class="btn-cta btn btn-outline-white">Get A Quote</a>
-        </div> -->
     </div>
 </section>
 <!-- END section -->
@@ -307,6 +297,8 @@
         </div>
     </div>
 </section>
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-3.2.1.min.js"></script>
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/login.js"></script>
 <section class="section">
     <div class="container" id="contacto">
         <div class="row justify-content-center mb-5 element-animate">
@@ -316,15 +308,15 @@
         </div>
         <div class="row">
             <div class="col-md-7">
-                <form action="#" method="post">
+                <div>
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <label for="fname">Nombre</label>
-                            <input type="text" class="form-control form-control-lg" id="fname">
+                            <input type="text" class="form-control form-control-lg" id="nombre">
                         </div>
                         <div class="col-md-6 form-group">
                             <label for="lname">Apellido</label>
-                            <input type="text" class="form-control form-control-lg" id="lname">
+                            <input type="text" class="form-control form-control-lg" id="apellido">
                         </div>
                     </div>
                     <div class="row">
@@ -336,17 +328,18 @@
                     <div class="row">
                         <div class="col-md-12 form-group">
                             <label for="message">Escribe tu mensaje</label>
-                            <textarea name="message" id="message" class="form-control form-control-lg" cols="30" rows="8"></textarea>
+                            <textarea name="message" id="mensaje" class="form-control form-control-lg" cols="30" rows="8"></textarea>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="submit" value="Envia tu mensaje" class="btn btn-primary btn-lg btn-block">
+                            <button class="btn btn-primary btn-lg btn-block" onclick="login();">Envia tu mensaje</button>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-md-1">
+            </div>
             <div class="col-md-4">
                 <h5 class="text-uppercase mb-3">Dirección</h5>
                 <p class="mb-5">D'onofrio 1544 <br> Libertad <br> Buenos Aires</p>
@@ -378,10 +371,10 @@
             <div class="col-md-3">
                 <h3>Links</h3>
                 <ul class="list-unstyled footer-link">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#productos">Productos Destacados</a></li>
+                    <li><a href="#donde-estamos">¿Donde estamos?</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
@@ -395,68 +388,35 @@
             </div>
         </div>
     </div>
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">¡Ups! Ocurrió un problema</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="modal-t"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 <!-- END footer -->
 <!-- loader -->
 <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
-<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/popper.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/owl.carousel.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.waypoints.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/main.js"></script>
-<script>
-    function initMap() {
-        var uluru = {lat: -34.698639, lng: -58.669250};
-        var secretMessages = '<span style="color:black"><b>Corralón Casa Licata</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D'onofrio 1544<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Barrio Libertad<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buenos Aires</span>';
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
-            center: uluru
-        });
-
-        var marker = new google.maps.Marker({
-            position: uluru,
-            map: map,
-            animation: google.maps.Animation.BOUNCE,
-            title: 'Hacé click para ver la dirección'
-        });
-        attachSecretMessage(marker, secretMessages);
-
-        function attachSecretMessage(marker, secretMessages) {
-            var infowindow = new google.maps.InfoWindow({
-                content: secretMessages
-            });
-
-            marker.addListener('click', function() {
-                infowindow.open(marker.get('map'), marker);
-            });
-        }
-
-    }
-</script>
-<script> $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-            loop:true,
-            margin:10,
-            autoplay:true,
-            responsive:{
-                0:{
-                    items:2,
-                    mouseDrag: false,
-                    touchDrag: true
-                },
-                600:{
-                    items:3,
-                    mouseDrag: false,
-                    touchDrag: true
-                },
-                1000:{
-                    items:5
-                }
-            }
-        });
-    });
-</script>
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/initMap.js"></script>
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/carrousel.js"></script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAC-DTzM4zKMhwcQPfKLq1F7P0rIaZKAlQ&callback=initMap">
 </script>

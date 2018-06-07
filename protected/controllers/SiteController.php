@@ -121,4 +121,17 @@ class SiteController extends Controller
         echo json_encode($data);
     }
 
+    public function envioEmail()
+    {
+        $data = array();
+        $tipo_material = tipomaterial::model()->findAll();
+        if($tipo_material){
+            foreach($tipo_material as $mat){
+                $values = array('tipo_material' => $mat->tipo_material, 'descripcion' => $mat->descripcion);
+                array_push($data,$values);
+            }
+        }
+        echo json_encode($data);
+    }
+
 }
