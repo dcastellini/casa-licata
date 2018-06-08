@@ -1,8 +1,3 @@
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" media="screen, projection">
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/animate.css" media="screen, projection">
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/custom.css" media="screen, projection">
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/owl.carousel.min.css" media="screen, projection">
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" media="screen, projection">
 <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/fonts/ionicons/css/ionicons.min.css">
 <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/fonts/fontawesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/fonts/flaticon/font/flaticon.css">
@@ -297,7 +292,6 @@
         </div>
     </div>
 </section>
-<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/login.js"></script>
 <section class="section">
     <div class="container" id="contacto">
@@ -410,8 +404,6 @@
 <!-- END footer -->
 <!-- loader -->
 <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
-<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/popper.min.js"></script>
-<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/owl.carousel.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.waypoints.min.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/main.js"></script>

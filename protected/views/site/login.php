@@ -1,24 +1,31 @@
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/custom.css" media="screen, projection">
-
-<?php $form=$this->beginWidget('CActiveForm', array(
-    'id'=>'LoginForm',
-    'enableClientValidation'=>true,
-    'clientOptions'=>array('validateOnSubmit'=>true,),)); ?>
 
 <div class="container">
-    <div class="form-signin">
-        <h2 class="form-signing-heading">Login</h2>
-        <label for="inputUsuario" class="sr-only">
-            Usuario
-        </label>
-        <?php echo $form->textField($model,'username',array('class'=>"form-control",'placeholder'=>"Usuario",'id'=>"usuario")); ?>
-        <label for="inputPassword" class="sr-only">
-            Password
-        </label>
-        <?php echo $form->passwordField($model,'password',array('class'=>"form-control",'placeholder'=>"Password",'id'=>"password")); ?>
-        <br>
-        <?php echo CHtml::Button('Entrar',array("class"=>"btn btn-lg btn-primary btn-block","onclick"=>"login()")); ?>
-        <?php $this->endWidget(); ;?>
+        <div class="form-label-group">
+            <input type="text" id="usuario" class="form-control" name="usuario" placeholder="Usuario" required autofocus>
+            <label for="usuario">Usuario</label>
+        </div>
+        <div class="form-label-group">
+            <input type="password" id="password"  name="password" class="form-control" placeholder="Password" required>
+            <label for="password">Password</label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" onclick="login()">Logueate!</button>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="myModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">¡Ups! Ocurrió un problema</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="modal-t"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -26,8 +33,13 @@
     function login(){
         var usuario  = $('#usuario').val();
         var password = $('#password').val();
-        if(usuario == "" || usuario == null || password == "" || password == null){
-            alert('Ingrese los datos');
+        if(usuario == "" || usuario == null){
+            $('#modal-t').html("").append('¡El usuario no puede ser nulo!');
+            $('#myModal').modal('show');
+        }
+        else if(password == "" || password == null){
+            $('#modal-t').html("").append('¡El password no puede ser nulo!');
+            $('#myModal').modal('show');
         }
         else{
             var data = {'usuario':usuario, 'password':password};
@@ -38,8 +50,9 @@
                 dataType:'html',
                 cache: false,
                 success: function (response){
-                    if(response == "nologin"){
-                        alert('Error al loguear');
+                    if(response == "error_login"){
+                        $('#modal-t').html("").append('¡Usuario o contraseña incorrectos!');
+                        $('#myModal').modal('show');
                     }
                     else{
                         window.location.replace(response);

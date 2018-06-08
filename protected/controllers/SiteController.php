@@ -79,7 +79,7 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
-		$model=new LoginForm;
+	    $model=new LoginForm;
 
 		if(isset($_POST['usuario']) && isset($_POST['password']))
 		{
@@ -93,7 +93,7 @@ class SiteController extends Controller
                 echo Yii::app()->request->baseUrl . "/site/index";
             }
             else{
-                echo "nologin";
+                echo "error_login";
             }
         }
 		else {
