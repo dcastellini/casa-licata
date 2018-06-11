@@ -575,3 +575,582 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
 ---
+2018/06/11 16:50:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 16:50:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:35:33 [error] [php] session_regenerate_id(): Session object destruction failed.  ID: files (path: C:\xampp\tmp) (C:\xampp\htdocs\casa-licata\framework\web\CHttpSession.php:182)
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\auth\CWebUser.php(233): CWebUser->changeIdentity()
+#1 C:\xampp\htdocs\casa-licata\protected\models\LoginForm.php(73): CWebUser->login()
+#2 C:\xampp\htdocs\casa-licata\protected\controllers\SiteController.php(90): LoginForm->login()
+#3 C:\xampp\htdocs\casa-licata\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\casa-licata\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\casa-licata\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\casa-licata\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\casa-licata\index.php(13): CWebApplication->run()
+REQUEST_URI=/casa-licata/site/login
+in C:\xampp\htdocs\casa-licata\protected\models\LoginForm.php (73)
+in C:\xampp\htdocs\casa-licata\protected\controllers\SiteController.php (90)
+in C:\xampp\htdocs\casa-licata\index.php (13)
+2018/06/11 17:49:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:49:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:50:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:50:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:50:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:50:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:52:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:52:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:52:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:52:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:53:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:53:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:53:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:53:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:53:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:53:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:53:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:53:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:53:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:53:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:54:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:54:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 17:57:54 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index_login". in C:\xampp\htdocs\casa-licata\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CController.php(270): CController->missingAction('index_login')
+#1 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(282): CController->run('index_login')
+#2 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index_logi...')
+#3 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/casa-licata/site/index_login
+HTTP_REFERER=http://localhost/casa-licata/site/login
+---
+2018/06/11 17:58:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/dashboard.css". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('css/dashboard.c...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/css/dashboard.css
+HTTP_REFERER=http://localhost/casa-licata/site/index_login
+---
+2018/06/11 17:58:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/dashboard.css". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('css/dashboard.c...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/css/dashboard.css
+HTTP_REFERER=http://localhost/casa-licata/site/index_login
+---
+2018/06/11 17:59:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/dashboard.css". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('css/dashboard.c...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/css/dashboard.css
+HTTP_REFERER=http://localhost/casa-licata/site/index_login
+---
+2018/06/11 17:59:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/dashboard.css". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('css/dashboard.c...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/css/dashboard.css
+HTTP_REFERER=http://localhost/casa-licata/site/index_login
+---
+2018/06/11 17:59:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/dashboard.css". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('css/dashboard.c...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/css/dashboard.css
+HTTP_REFERER=http://localhost/casa-licata/site/index_login
+---
+2018/06/11 17:59:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 17:59:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:34:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "login". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/login
+---
+2018/06/11 20:34:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/dashboard.css". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('css/dashboard.c...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/css/dashboard.css
+HTTP_REFERER=http://localhost/casa-licata/site/index_login
+---
+2018/06/11 20:34:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/dashboard.css". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('css/dashboard.c...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/css/dashboard.css
+HTTP_REFERER=http://localhost/casa-licata/site/index_login
+---
+2018/06/11 20:34:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:34:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:35:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:35:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:37:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:37:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:44:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:44:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:47:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:47:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:47:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:47:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:47:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:47:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:47:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:47:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:49:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:49:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:50:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:50:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:50:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:50:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:50:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:50:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:50:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:50:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 20:59:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 20:59:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 21:00:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 21:00:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 21:00:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 21:00:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---
+2018/06/11 21:00:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/popper.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/popper.min.j...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/popper.min.js.map
+---
+2018/06/11 21:00:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap.min.js.map". in C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\casa-licata\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\casa-licata\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\casa-licata\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/casa-licata/js/bootstrap.min.js.map
+---

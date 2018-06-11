@@ -34,6 +34,13 @@ class SiteController extends Controller
 		$this->render('index');
 	}
 
+    public function actionIndex_Login()
+    {
+        // renders the view file 'protected/views/site/index.php'
+        // using the default layout 'protected/views/layouts/main.php'
+        $this->render('index_login');
+    }
+
 	/**
 	 * This is the action to handle external exceptions.
 	 */
@@ -90,7 +97,7 @@ class SiteController extends Controller
 			if($model->login()){
                 Yii::app()->session->open();
                 Yii::app()->session['usuario'] = $model->username;
-                echo Yii::app()->request->baseUrl . "/site/index";
+                echo Yii::app()->request->baseUrl . "/site/index_login";
             }
             else{
                 echo "error_login";

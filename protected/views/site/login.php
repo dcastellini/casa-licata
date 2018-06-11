@@ -1,14 +1,20 @@
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form-signin.css" media="screen, projection">
+
 
 <div class="container">
+    <div class="form-signin">
+        <h2 class="form-signin-heading">¡Logueate!</h2>
+        <br>
         <div class="form-label-group">
             <input type="text" id="usuario" class="form-control" name="usuario" placeholder="Usuario" required autofocus>
-            <label for="usuario">Usuario</label>
         </div>
+        <br>
         <div class="form-label-group">
             <input type="password" id="password"  name="password" class="form-control" placeholder="Password" required>
-            <label for="password">Password</label>
         </div>
+        <br>
         <button class="btn btn-lg btn-primary btn-block" onclick="login()">Logueate!</button>
+    </div>
 </div>
 <div class="modal" tabindex="-1" role="dialog" id="myModal">
     <div class="modal-dialog" role="document">

@@ -99,7 +99,7 @@
                     <span class="flaticon-building-1 icon"></span>
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Terminá tu casa</h3>
-                        <p>Tenemos créditos personales hasta 24 cuotas y hasta $50.000.</p>
+                        <p>Contamos con materiales de construcción y de terminación: aridos, aberturas, hierros, ladrillos, revestimientos, etc.</p>
                     </div>
                 </div>
             </div>
@@ -118,8 +118,8 @@
                 <div class="media d-block media-feature text-center">
                     <span class="flaticon-helmet icon"></span>
                     <div class="media-body">
-                        <h3 class="mt-0 text-black">House Renovation</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3 class="mt-0 text-black">Contacto</h3>
+                        <p>0220-494-6161 / 15-6558-4672 / 15-5229-3448 Donofrio 1544, Libertad, Merlo, Buenos Aires</p>
                     </div>
                 </div>
             </div>
@@ -127,8 +127,8 @@
                 <div class="media d-block media-feature text-center">
                     <span class="flaticon-building icon"></span>
                     <div class="media-body">
-                        <h3 class="mt-0 text-black">Construction Consultant</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3 class="mt-0 text-black">Financiación</h3>
+                        <p>Credipaz: créditos personales hasta 50.000. Tarjetas: Visa, Master Card, Argencard, Credial, American Express, Tarjeta Naranja, Cabal, Maestro, Nativa, Dinners, Shopping</p>
                     </div>
                 </div>
             </div>
@@ -136,8 +136,8 @@
                 <div class="media d-block media-feature text-center">
                     <span class="flaticon-engineer icon"></span>
                     <div class="media-body">
-                        <h3 class="mt-0 text-black">General Contracting</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3 class="mt-0 text-black">Atención al cliente</h3>
+                        <p>Lunes a Viernes 7:30 a 12:30 y 14:00 a 18:00 / Sábados 7:30 a 14:00</p>
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@
         <div class="row justify-content-center mb-5 element-animate">
             <div class="col-md-8 text-center mb-5">
                 <h2 class="text-uppercase heading border-bottom mb-4">Productos Destacados</h2>
-                <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+                <p class="mb-0 lead"></p>
             </div>
         </div>
         <div class="row element-animate">
@@ -159,46 +159,26 @@
                 <div>
                     <div class="media d-block media-custom text-left">
                         <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_1.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
                     </div>
                 </div>
                 <div>
                     <div class="media d-block media-custom text-left">
                         <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_2.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
                     </div>
                 </div>
                 <div>
                     <div class="media d-block media-custom text-left">
                         <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_3.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
                     </div>
                 </div>
                 <div>
                     <div class="media d-block media-custom text-left">
                         <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_4.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
                     </div>
                 </div>
                 <div>
                     <div class="media d-block media-custom text-left">
                         <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_5.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -253,13 +233,13 @@
             </div>
             <div class="col-md-1 order-lg-2"></div>
             <div class="col-md-5 order-lg-1">
-                <h2 class="text-uppercase heading mb-4">Company History</h2>
-                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-                <ul class="list-unstyled check">
+                <h2 class="text-uppercase heading mb-4">Nosotros</h2>
+                <p class="mb-3">Licata Materiales es una empresa con más de 25 años en el rubro de la construcción y terminación.</p>
+                <!--<ul class="list-unstyled check">
                     <li>Soluta sit quam minima</li>
                     <li>Consectetur adipisicing elit</li>
                     <li>Commodi unde impedit</li>
-                </ul>
+                </ul>-->
             </div>
         </div>
         <div class="row">
@@ -268,13 +248,13 @@
             </div>
             <div class="col-md-1 order-lg-2"></div>
             <div class="col-md-5 order-lg-3">
-                <h2 class="text-uppercase heading mb-4">We Are 25 Years in Industry</h2>
-                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-                <ul class="list-unstyled check">
+                <h2 class="text-uppercase heading mb-4"></h2>
+                <p class="mb-3">Cuenta con mucho prestigio entre sus clientes, gracias a su compromiso diario y calidad de atención al público.</p>
+                <!--<ul class="list-unstyled check">
                     <li>Soluta sit quam minima</li>
                     <li>Consectetur adipisicing elit</li>
                     <li>Commodi unde impedit</li>
-                </ul>
+                </ul>-->
             </div>
         </div>
     </div>
@@ -284,7 +264,7 @@
         <div class="row justify-content-center mb-5 element-animate">
             <div class="col-md-8 text-center mb-5">
                 <h2 class="text-uppercase heading border-bottom mb-4">¿Donde estamos?</h2>
-                <p class="mb-3 lead">D'onofrio 1544 , Libertad , Buenos Aires.</p>
+                <p class="mb-3 lead">D'onofrio 1544 , Libertad , Merlo , Buenos Aires.</p>
             </div>
         </div>
         <div class="row">
@@ -336,7 +316,7 @@
             </div>
             <div class="col-md-4">
                 <h5 class="text-uppercase mb-3">Dirección</h5>
-                <p class="mb-5">D'onofrio 1544 <br> Libertad <br> Buenos Aires</p>
+                <p class="mb-5">D'onofrio 1544 <br> Libertad <br> Merlo <br> Buenos Aires</p>
                 <h5 class="text-uppercase mb-3">Escribinos</h5>
                 <p class="mb-5"><a href="mailto:ventas@materiales-licata.com.ar">ventas@materiales-licata.com.ar</a></p>
                 <h5 class="text-uppercase mb-3">Llamanos</h5>
@@ -356,7 +336,7 @@
             </div>
             <div class="col-md-3">
                 <ul class="list-unstyled footer-link">
-                    <li class="d-flex"><span class="mr-3">Dirección:</span><span class="text-black">D'onofrio 1544, Libertad, Buenos Aires</span></li>
+                    <li class="d-flex"><span class="mr-3">Dirección:</span><span class="text-black">D'onofrio 1544, Libertad, Merlo, Buenos Aires</span></li>
                     <li class="d-flex"><span class="mr-3">Teléfono:</span><span class="text-black">(0220) 494 6163</span></li>
                     <li class="d-flex"><span class="mr-3">Whatsapp:</span><span class="text-black">(+54) 11 5229 3448 </span></li>
                     <li class="d-flex"><span class="mr-3">Email:</span><span class="text-black">ventas@materiales-licata.com.ar</span></li>

@@ -6,6 +6,9 @@
         <meta name="language" content="en">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Encontrá todos los materiales de construcción que necesitás al mejor precio y atendido por sus dueños." />
+        <meta name="revisit-after" content="1 DAYS">
+        <meta name="robots" content="All">
         <!-- FAVICON -->
         <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="<?php echo Yii::app()->request->baseUrl; ?>/img/favicon.ico" type="image/x-icon">
