@@ -36,3 +36,27 @@ html
 	width:60px;
 	
 }
+
+.h1-style
+{
+	font-size:40px;
+	font-weight: 600;
+	line-height: 1.2;
+	color:white;
+}
+
+.h2-style
+{
+	font-size:15px;
+	font-weight: 500;
+	line-height: 1.2;
+	color:black;
+}
+
+.h3-style
+{
+	font-size:30px;
+	font-weight: 500;
+	line-height: 1.2;
+	color:black;
+}

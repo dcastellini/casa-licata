@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="canonical" href="https://www.materiales-licata.com.ar"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="language" content="en">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,7 @@
         <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="<?php echo Yii::app()->request->baseUrl; ?>/img/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <title>Casa Licata</title>
+        <title>Casa Licata - Corralón de materiales para la construcción</title>
         <style> body { font-family: 'Roboto' !important; }</style>
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" media="screen, projection">

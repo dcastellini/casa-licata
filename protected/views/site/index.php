@@ -37,7 +37,7 @@
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center text-center">
                 <div class="col-md-7 col-sm-12 element-animate">
-                    <h1>VENTAS POR MAYOR Y MENOR</h1>
+                    <span class="h1-style">VENTAS POR MAYOR Y MENOR</span>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row slider-text align-items-center">
                 <div class="col-md-8 col-sm-12 element-animate">
-                    <h1>TRABAJAMOS CON LAS PRIMERAS MARCAS</h1>
+                    <span class="h1-style">TRABAJAMOS CON LAS PRIMERAS MARCAS</span>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center text-center">
                 <div class="col-md-7 col-sm-12 element-animate">
-                    <h1>VENTAS POR MAYOR Y MENOR</h1>
+                    <span class="h1-style">VENTAS POR MAYOR Y MENOR</span>
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center text-center">
                 <div class="col-md-7 col-sm-12 element-animate">
-                    <h1>VENTAS POR MAYOR Y MENOR</h1>
+                    <span class="h1-style">VENTAS POR MAYOR Y MENOR</span>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
 <!-- END slider -->
 <section class="container cta-overlap">
     <div class="text d-flex">
-        <h2 class="center-h3">MÁS DE 25 AÑOS EN EL RUBRO DE LA CONSTRUCCIÓN</h2>
+        <h1 class="center-h3 h1-style">Corralón Casa Licata - Más de 25 años en el rubro</h1>
     </div>
 </section>
 <!-- END section -->
@@ -81,7 +81,7 @@
     <div class="container" id="servicios">
         <div class="row justify-content-center mb-5 element-animate">
             <div class="col-md-8 text-center">
-                <h2 class="text-uppercase heading border-bottom mb-4">Servicios que brindamos</h2>
+                <span class="text-uppercase heading border-bottom mb-4 h3-style">Servicios que brindamos</span>
             </div>
         </div>
         <div class="row mb-5">
@@ -89,7 +89,7 @@
                 <div class="media d-block media-feature text-center">
                     <span class="flaticon-blueprint icon"></span>
                     <div class="media-body">
-                        <h3 class="mt-0 text-black">Tu consulta no molesta</h3>
+                        <span class="mt-0 text-black h2-style">TU CONSULTA NO MOLESTA</span>
                         <p>Te asesoramos en lo que necesitás y aclaramos todas tus dudas</p>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                 <div class="media d-block media-feature text-center">
                     <span class="flaticon-building-1 icon"></span>
                     <div class="media-body">
-                        <h3 class="mt-0 text-black">Terminá tu casa</h3>
+                        <span class="mt-0 text-black h2-style">TERMINÁ TU CASA</span>
                         <p>Contamos con materiales de construcción y de terminación: aridos, aberturas, hierros, ladrillos, revestimientos, etc.</p>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                 <div class="media d-block media-feature text-center">
                     <span class="flaticon-crane icon"></span>
                     <div class="media-body">
-                        <h3 class="mt-0 text-black">Servicios</h3>
+                        <span class="mt-0 text-black h2-style">SERVICIOS</span>
                         <p>Contamos con servicio de hidrogrúa y logística programada.</p>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                 <div class="media d-block media-feature text-center">
                     <span class="flaticon-helmet icon"></span>
                     <div class="media-body">
-                        <h3 class="mt-0 text-black">Contacto</h3>
+                        <span class="mt-0 text-black h2-style">CONTACTO</span>
                         <p>0220-494-6161 / 15-6558-4672 / 15-5229-3448 Donofrio 1544, Libertad, Merlo, Buenos Aires</p>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                 <div class="media d-block media-feature text-center">
                     <span class="flaticon-building icon"></span>
                     <div class="media-body">
-                        <h3 class="mt-0 text-black">Financiación</h3>
+                        <span class="mt-0 text-black h2-style">FINANCIACIÓN</span>
                         <p>Credipaz: créditos personales hasta 50.000. Tarjetas: Visa, Master Card, Argencard, Credial, American Express, Tarjeta Naranja, Cabal, Maestro, Nativa, Dinners, Shopping</p>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                 <div class="media d-block media-feature text-center">
                     <span class="flaticon-engineer icon"></span>
                     <div class="media-body">
-                        <h3 class="mt-0 text-black">Atención al cliente</h3>
+                        <span class="mt-0 text-black h2-style">ATENCIÓN AL CLIENTE</span>
                         <p>Lunes a Viernes 7:30 a 12:30 y 14:00 a 18:00 / Sábados 7:30 a 14:00</p>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
     <div class="container" id="productos">
         <div class="row justify-content-center mb-5 element-animate">
             <div class="col-md-8 text-center mb-5">
-                <h2 class="text-uppercase heading border-bottom mb-4">Productos Destacados</h2>
+                <span class="text-uppercase heading border-bottom mb-4 h3-style">Productos Destacados</span>
                 <p class="mb-0 lead"></p>
             </div>
         </div>
@@ -191,7 +191,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
             <div class="col-md-8 text-center mb-5">
-                <h2 class="text-uppercase heading border-bottom mb-4">Nuestras Marcas</h2>
+                <span class="text-uppercase heading border-bottom mb-4 h3-style">Nuestras Marcas</span>
             </div>
         </div>
     </div>
@@ -233,7 +233,7 @@
             </div>
             <div class="col-md-1 order-lg-2"></div>
             <div class="col-md-5 order-lg-1">
-                <h2 class="text-uppercase heading mb-4">Nosotros</h2>
+                <span class="text-uppercase heading mb-4 h3-style">Nosotros</span>
                 <p class="mb-3">Licata Materiales es una empresa con más de 25 años en el rubro de la construcción y terminación.</p>
                 <!--<ul class="list-unstyled check">
                     <li>Soluta sit quam minima</li>
@@ -248,7 +248,6 @@
             </div>
             <div class="col-md-1 order-lg-2"></div>
             <div class="col-md-5 order-lg-3">
-                <h2 class="text-uppercase heading mb-4"></h2>
                 <p class="mb-3">Cuenta con mucho prestigio entre sus clientes, gracias a su compromiso diario y calidad de atención al público.</p>
                 <!--<ul class="list-unstyled check">
                     <li>Soluta sit quam minima</li>
@@ -263,7 +262,7 @@
     <div class="container-fluid" id="donde-estamos">
         <div class="row justify-content-center mb-5 element-animate">
             <div class="col-md-8 text-center mb-5">
-                <h2 class="text-uppercase heading border-bottom mb-4">¿Donde estamos?</h2>
+                <h2 class="text-uppercase heading border-bottom mb-4 h3-style">¿Donde estamos?</h2>
                 <p class="mb-3 lead">D'onofrio 1544 , Libertad , Merlo , Buenos Aires.</p>
             </div>
         </div>
@@ -277,7 +276,7 @@
     <div class="container" id="contacto">
         <div class="row justify-content-center mb-5 element-animate">
             <div class="col-md-8 text-center mb-5">
-                <h2 class="text-uppercase heading border-bottom mb-4">Escribinos</h2>
+                <span class="text-uppercase heading border-bottom mb-4 h3-style">Escribinos</span>
             </div>
         </div>
         <div class="row">
