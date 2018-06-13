@@ -1,0 +1,3 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+Sitemap: http://www.materiales-licata.com.ar/sitemap.xml
