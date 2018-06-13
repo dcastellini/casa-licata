@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="157021b3-4259-4ae7-81de-995a58b4fa8d" name="Default" comment="" />
+    <list default="true" id="157021b3-4259-4ae7-81de-995a58b4fa8d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/work_thumb_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/work_thumb_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/work_thumb_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/work_thumb_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/work_thumb_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/work_thumb_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/work_thumb_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/work_thumb_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/work_thumb_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/work_thumb_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/index.php" afterDir="false" />
+    </list>
     <ignored path="casa-licata.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -20,9 +40,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -63,9 +111,9 @@
         <option value="$PROJECT_DIR$/css/form-signin.css" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index_login.php" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -228,12 +276,12 @@
       <workItem from="1528463689563" duration="7177000" />
       <workItem from="1528727981238" duration="7883000" />
       <workItem from="1528810234332" duration="5683000" />
-      <workItem from="1528894825404" duration="517000" />
+      <workItem from="1528894825404" duration="6913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54594000" />
+    <option name="totallyTimeSpent" value="60990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -564,36 +612,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#section#0;n#!!top" expanded="true" />
-            <element signature="e#16526#16532#0#HTML" expanded="true" />
-            <element signature="e#18947#18954#1#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="299">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

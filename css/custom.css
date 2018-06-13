@@ -43,6 +43,7 @@ html
 	font-weight: 600;
 	line-height: 1.2;
 	color:white;
+    font-family:"Roboto" !important;
 }
 
 .h2-style
@@ -59,4 +60,24 @@ html
 	font-weight: 500;
 	line-height: 1.2;
 	color:black;
+}
+
+@font-face
+{
+	font-family: "Roboto";
+	src: url("font/Roboto-Regular.eot");
+	src: url("font/Roboto-Regular.eot?#Roboto-Regular") format("embedded-opentype"),
+	url("font/Roboto-Regular.woff") format("woff"),
+	url("font/Roboto-Regular.ttf") format("truetype"),
+	url("font/Roboto-Regular.svg#Roboto-Regular") format("svg");
+}
+
+body
+{
+	font-family:"Roboto" !important;
+}
+
+.bg-light
+{
+	background-color: #F2F2F2 !important;
 }

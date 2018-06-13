@@ -5,14 +5,14 @@
 <header role="banner">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo.png" class="logo-header"/></a>
+            <a class="navbar-brand" href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo.png" alt="Logo" title="Logo" class="logo-header"/></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarsExample05">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html"><b>INICIO</b></a>
+                        <a class="nav-link active" href="#"><b>INICIO</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#servicios"><b>SERVICIOS</b></a>
@@ -158,27 +158,27 @@
             <div class="major-caousel js-carousel-1 owl-carousel">
                 <div>
                     <div class="media d-block media-custom text-left">
-                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_1.jpg" alt="Image Placeholder" class="img-fluid">
+                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_1.jpg" alt="Ladrillos" title="Ladrillos" class="img-fluid">
                     </div>
                 </div>
                 <div>
                     <div class="media d-block media-custom text-left">
-                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_2.jpg" alt="Image Placeholder" class="img-fluid">
+                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_2.jpg" alt="Ladrillos-Huecos" title="Ladrillos-Huecos" class="img-fluid">
                     </div>
                 </div>
                 <div>
                     <div class="media d-block media-custom text-left">
-                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_3.jpg" alt="Image Placeholder" class="img-fluid">
+                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_3.jpg" alt="Cemento" title="Cemento" class="img-fluid">
                     </div>
                 </div>
                 <div>
                     <div class="media d-block media-custom text-left">
-                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_4.jpg" alt="Image Placeholder" class="img-fluid">
+                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_4.jpg" alt="Arena" title="Arena" class="img-fluid">
                     </div>
                 </div>
                 <div>
                     <div class="media d-block media-custom text-left">
-                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_5.jpg" alt="Image Placeholder" class="img-fluid">
+                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/work_thumb_5.jpg" alt="Piedra" title="Piedra" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -197,31 +197,31 @@
     </div>
     <div class="owl-carousel">
         <div class="carrousel-logo">
-            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/acindar.jpg"/>
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/acindar.jpg" alt="Acindar" title="Acindar"/>
         </div>
         <div class="carrousel-logo">
-            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/awaduct.jpg" />
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/awaduct.jpg" alt="Awaduct" title="Awaduct"/>
         </div>
         <div class="carrousel-logo">
-            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cementos.jpg"/>
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/cementos.jpg" alt="Cementos" title="Cementos"/>
         </div>
         <div class="carrousel-logo">
-            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/ceresita.jpg"/>
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/ceresita.jpg" alt="Ceresita" title="Ceresita"/>
         </div>
         <div class="carrousel-logo">
-            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/coestherm.jpg"/>
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/coestherm.jpg" alt="Coestherm" title="Coestherm"/>
         </div>
         <div class="carrousel-logo">
-            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/ctibor.jpg"/>
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/ctibor.jpg" alt="Ctibor" title="Ctibor"/>
         </div>
         <div class="carrousel-logo">
-            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/fibrosur.jpg"/>
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/fibrosur.jpg" alt="Fibrosur" title="Fibrosur"/>
         </div>
         <div class="carrousel-logo">
-            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/klaukol.jpg"/>
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/klaukol.jpg" alt="Klaukol" title="Klaukol"/>
         </div>
         <div class="carrousel-logo">
-            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sigas.jpg"/>
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sigas.jpg" alt="Sigas" title="Sigas"/>
         </div>
     </div>
 </section>
@@ -229,7 +229,7 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-6 order-lg-3 mb-5">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/slider-1.jpg" alt="Image placeholder" class="img-fluid">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/slider-1.jpg" alt="Arena" title="Arena" class="img-fluid">
             </div>
             <div class="col-md-1 order-lg-2"></div>
             <div class="col-md-5 order-lg-1">
@@ -244,7 +244,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 order-lg-1 mb-5">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/slider-2.jpg" alt="Image placeholder" class="img-fluid">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/slider-2.jpg" alt="Cemento" title="Cemento" class="img-fluid">
             </div>
             <div class="col-md-1 order-lg-2"></div>
             <div class="col-md-5 order-lg-3">
